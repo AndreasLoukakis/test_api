@@ -44,3 +44,7 @@ Using laravel and some custom validation rules
 
 
 /api/vrep?imo=9224570,9327475&format=csv&condition=anchor
+
+/api/vrep?imo=9224570,9327475&format=csv&condition=anchor&fuel_consumption=gt,3,me
+
+/api/vrep?imo=9224570,9327475&format=csv&condition=anchor&fuel_consumption=lt,100,me
