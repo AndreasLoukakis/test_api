@@ -60,7 +60,7 @@ class Kernel extends HttpKernel
 
             // In production, we would extend the class with more complicated user / domain / ip handling
 
-            'throttle:5000,60',
+            'throttle:5,60',
             'bindings',
         ],
     ];
