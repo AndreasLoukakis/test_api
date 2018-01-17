@@ -37,3 +37,10 @@ returning json data or streamed csv
 Using laravel and some custom validation rules
 
     Implemented in Http/Controllers/REportsController
+
+**Examples of valid requests:**
+
+[a link](/api/vrep?imo=9224570&format=json&condition=steaming&from=2016-02-17%2012:15:38&to=2016-02-21%2012:15:19)
+
+
+[a link](/api/vrep?imo=9224570,9327475&format=csv&condition=anchor)
